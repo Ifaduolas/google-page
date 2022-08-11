@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   /* background-image: url("https://lh4.googleusercontent.com/proxy/UOhQwfclsAK8TnXZqoTkh9szHvYOJ3auDH07hZBZeVaaRWvzGaXpaYl60MfCRuW_S57gvzBw859pj5Xl2pW_GpfG8k2GhE9LUFNKwA=w3840-h2160-p-k-no-nd-mv");
+    background-size: cover;*/
+}
+
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home-header a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+}
+
+.home-header a:hover{
+    text-decoration: underline;
+}
+
+.home-headerRight {
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.home-headerRight > .MuiSvgIcon-root {
+    margin-right:20px;
+}
+
+.home-body > img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.home-body {
+    flex:1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
